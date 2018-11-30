@@ -11,7 +11,7 @@ Every pictures, references, rule systems, quotes and other details related to th
 
 ## Features
 
-- Create a Match and put every player roster
+- Create a Match and select players
 - Select a player and it's target to see the probabilities to hit the different result of the player playbook
 - Modify the odds by adding bonuses and maluses (charge, crowd out, conditions, etc.)
 - Show the selected players special rules like : Close control, Tough Hide, etc.
