@@ -11,7 +11,7 @@ Every pictures, references, rule systems, quotes and other details related to th
 
 ## Features
 
-- Traduction
+- Localization in English, French, then other language available in the game
 - Browse through Guild's roster
 - Create a Match and select players
 - Select a player and it's target to see the probabilities to hit the different result of the player playbook
