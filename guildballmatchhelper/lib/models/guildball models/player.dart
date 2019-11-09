@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'dart:ui';
 import 'package:guildballmatchhelper/models/faction.dart';
 import 'package:guildballmatchhelper/models/profile.dart';
 
@@ -14,7 +14,7 @@ class Player implements Profile {
   int tac;
   String inf;
 
-  PlayerPosition position;
+  String position;
 
   @override
   String baseSize;
@@ -50,4 +50,11 @@ class Player implements Profile {
       this.name,
       this.cardImage,
       this.profilePicture});
+
+    factory Player.fromMappedJson(Map<String, dynamic> json) {
+      return Player(
+        name: json['name'],
+        position: json['position']);
+    } 
+
 }
